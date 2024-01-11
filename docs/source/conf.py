@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'SMI'
-copyright = '2022'
+copyright = '2024'
 author = 'rkm'
 
 release = '0.1'
