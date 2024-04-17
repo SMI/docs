@@ -1,5 +1,5 @@
 SMI - Software for Medical Imaging
-===
+==================================
 
 SMI contains several open-source applications and libraries for managing medical images, specifically DICOM.
 
