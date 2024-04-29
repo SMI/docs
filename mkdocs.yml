@@ -15,3 +15,6 @@ theme:
     repo: fontawesome/brands/github
 nav:
   - "Overview": index.md
+  - "Solution Documentation":
+    - "Overview": solution-docs/index.md
+    - "SmiServices": solution-docs/smi-services.md
