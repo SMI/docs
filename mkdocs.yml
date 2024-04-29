@@ -10,7 +10,7 @@ extra:
 theme:
   name: material
   favicon: favicon.ico
-  logo: SMI-GitHub-Logo.png
+  logo: img/SMI-GitHub-Logo.png
   icon:
     repo: fontawesome/brands/github
 nav:
