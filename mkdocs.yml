@@ -27,7 +27,9 @@ theme:
 markdown_extensions:
   - admonition
 nav:
-  - "Overview": index.md
+  - "SMI": index.md
+  - "Software":
+    - "Overview": software/index.md
   - "Solution Documentation":
     - "Overview": solution-docs/index.md
     - "SmiServices": solution-docs/smi-services.md
