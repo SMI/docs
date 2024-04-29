@@ -1,0 +1,17 @@
+---
+site_name: SMI
+repo_url: https://github.com/SMI/docs
+repo_name: SMI/docs
+edit_uri: edit/main/docs/
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SMI
+theme:
+  name: material
+  favicon: favicon.ico
+  logo: SMI-GitHub-Logo.png
+  icon:
+    repo: fontawesome/brands/github
+nav:
+  - "Overview": index.md
