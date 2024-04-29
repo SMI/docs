@@ -1,5 +1,7 @@
 # SMI Services
 
+This document describes the general architecture of the SmiServices solution as it existed in April 2022. Updates since then can be found in the repository [CHANGELOG](https://github.com/SMI/SmiServices/blob/main/CHANGELOG.md).
+
 ## Contents
 
 1. [Introduction](#10-introduction)
