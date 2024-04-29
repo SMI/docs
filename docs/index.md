@@ -7,5 +7,7 @@ SMI contains several open-source applications and libraries for managing medical
 
 ## Contents
 
--   [Software](software/)
--   [Solution Documentation](solution-docs/)
+-   [Software](software)
+-   [PICTURES](pictures)
+-   [Acronyms](acronyms)
+-   [Publications](publications)

@@ -48,7 +48,7 @@ Author: [Thomas Nind](https://github.com/tznind).
 
 SMI Services is a suite of tools designed to deliver scalable dicom image indexing for cohort building and extraction in anonymised sub sets (e.g. for research). It is an Extract, Transform and Load tool (ETL) for imaging data.
 
-![loaddiagram](./docs/Images/SmiFlow.svg)
+![loaddiagram](img/SmiFlow.svg)
 
 The problem addressed is how to enable linking of dicom metadata with other clinical data (e.g. electronic health records - EHR). The context in which it was developed is the loading and anonymisation of metadata for 10 years of Scottish national clinical imaging data (2 petabytes).
 
@@ -108,7 +108,7 @@ Communication between services is through RabbitMQ. RabbitMQ is one of the most 
 
 Data is promoted sequentially between places (file system, databases etc). Each promotion is carried out by one or more service types in a chain. For example promoting the dicom tag data to the MongoDb document store involves the [ProcessDirectory], [DicomTagReader] and [MongoDBPopulator] services. Since only tag data is promoted, there are no excessive storage overheads associated with data existing in multiple places at once within the system (duplication). Each place supports specific user processes (see below) and the technology chosen is based on it's suitability for those processes:
 
-![loaddiagram](./docs/Images/processes.svg)
+![loaddiagram](img/processes.svg)
 
 | User Process               | Description                                                                                                                                                                                                                                 | Application(s)                                                 |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
@@ -276,7 +276,7 @@ SmiServices command line tools are written in dotnet and work with any windows o
 
 All commands run in the RDMP windows gui client can [also be run directly on the command line](https://github.com/HicServices/RDMP/blob/develop/Documentation/CodeTutorials/RdmpCommandLine.md) which allows for scripting and alternate access routes. RDMP also features a Terminal User Interface (TUI) which mirrors the design of the gui client.
 
-![rdmp terminal user interface](./docs/Images/rdmp-tui.png)
+![rdmp terminal user interface](img/rdmp-tui.png)
 
 Both [IsIdentifiableReviewer] and the RDMP TUI support specifying alternative colour schemes for text where contrast or colors used are an accessibility issue for users.
 
@@ -337,7 +337,7 @@ A control queue is provided for controlling Microservices during runtime. It sup
 
 ### Data Load Microservices
 
-![loaddiagram](./docs/Images/LoadMicroservices.png)
+![loaddiagram](img/LoadMicroservices.png)
 
 | Microservice / Console App    | Description                                                                                                                                                                                                                                                      |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -350,7 +350,7 @@ A control queue is provided for controlling Microservices during runtime. It sup
 
 ### Image Extraction Microservices
 
-![extractiondiagram](./docs/Images/ExtractionMicroservices.png)
+![extractiondiagram](img/ExtractionMicroservices.png)
 
 | Microservice / Console App | Description                                                                                                                                                                                                                         |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
