@@ -1,3 +1,5 @@
+<img src="img/SMI-GitHub-Logo.png" class="align-right" alt="image" align="right" />
+
 # Software for Medical Imaging
 
 SMI contains several open-source applications and libraries for managing medical images, specifically DICOM. Our software has been designed, built, and validated in UK Trusted Research Environments (Safe Havens).
