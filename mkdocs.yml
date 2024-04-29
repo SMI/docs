@@ -28,8 +28,6 @@ markdown_extensions:
   - admonition
 nav:
   - "SMI": /
-  - "Software":
-    - "Overview": software/
   - "PICTURES":
     - "Overview": pictures/
     - "WP8 - SmiServices": pictures/wp8-smi-services
