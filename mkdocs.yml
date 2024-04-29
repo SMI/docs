@@ -13,6 +13,8 @@ theme:
   logo: img/SMI-GitHub-Logo.png
   icon:
     repo: fontawesome/brands/github
+markdown_extensions:
+  - admonition
 nav:
   - "Overview": index.md
   - "Solution Documentation":
