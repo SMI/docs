@@ -5,7 +5,7 @@
 -   [PICTURES](/pictures) - interdisciPlInary Collaboration for efficienT and effective Use of clinical images in big data healthcare
     RESearch
 -   [SCANDAN](https://github.com/SMI/SCANDAN) - SCottish AI in Neuroimaging to predict Dementia and Neurodegenerative Disease
--   [RDMP](https://github/com/HicServices/RDMP) - Research Data Management Platform
+-   [RDMP](https://github.com/HicServices/RDMP) - Research Data Management Platform
 
 ## Other Acronyms
 -   [DICOM](https://www.dicomstandard.org/) - Digital Imaging and Communications in Medicine 
