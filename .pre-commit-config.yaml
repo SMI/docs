@@ -1,0 +1,93 @@
+---
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: "v4.6.0"
+    hooks:
+      # General
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+      # Python
+      - id: check-ast
+      - id: check-builtin-literals
+      - id: check-docstring-first
+      - id: debug-statements
+      - id: requirements-txt-fixer
+  # General
+  - repo: meta
+    hooks:
+      - id: check-hooks-apply
+      - id: check-useless-excludes
+  - repo: https://github.com/codespell-project/codespell
+    rev: "v2.2.6"
+    hooks:
+      - id: codespell
+        args:
+          [
+            --ignore-words,
+            .meta/codespell-ignores,
+            --exclude-file,
+            .meta/codespell-excludes,
+          ]
+  - repo: https://github.com/rkm/pre-commit-nocommit
+    rev: "v1.0.0"
+    hooks:
+      - id: nocommit
+        exclude: |
+          (?x)^(
+              .pre-commit-config.yaml
+          )
+  # YAML
+  - repo: https://github.com/adrienverge/yamllint
+    rev: "v1.35.1"
+    hooks:
+      - id: yamllint
+        args: [-c, .meta/yamllint.yaml]
+  # Python
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: "v1.10.0"
+    hooks:
+      - id: python-check-blanket-noqa
+      - id: python-check-mock-methods
+      - id: python-use-type-annotations
+      - id: python-no-log-warn
+  - repo: https://github.com/asottile/reorder_python_imports
+    rev: "v3.12.0"
+    hooks:
+      - id: reorder-python-imports
+        args: [--py39-plus]
+  - repo: https://github.com/asottile/add-trailing-comma
+    rev: "v3.1.0"
+    hooks:
+      - id: add-trailing-comma
+        args: [--py36-plus]
+  - repo: https://github.com/asottile/pyupgrade
+    rev: "v3.15.2"
+    hooks:
+      - id: pyupgrade
+        args: [--py39-plus]
+  - repo: https://github.com/asottile/yesqa
+    rev: "v1.5.0"
+    hooks:
+      - id: yesqa
+        additional_dependencies: [pep8-naming]
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: "v1.10.0"
+    hooks:
+      - id: mypy
+        args: [--config-file, .meta/mypy.ini]
+  - repo: https://github.com/psf/black-pre-commit-mirror
+    rev: "24.4.2"
+    hooks:
+      - id: black
+        language_version: python39
+  - repo: https://github.com/pycqa/flake8
+    rev: "7.0.0"
+    hooks:
+      - id: flake8
+        additional_dependencies: [flake8-bugbear, flake8-assert-msg, pep8-naming]
+        args: [--config, .meta/flake8.conf]

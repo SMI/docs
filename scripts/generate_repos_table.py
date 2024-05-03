@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import json
 import os
 import urllib.request
@@ -9,6 +8,7 @@ _IGNORE = (
     ".github",
     "docs",
 )
+
 
 def main() -> int:
 
@@ -27,12 +27,12 @@ def main() -> int:
 
     print("| Name | Description |")
     print("| ---- | ----------- |")
-    for repo in sorted(repo_data, key=lambda x: (-x['stargazers_count'], x['name'])):
+    for repo in sorted(repo_data, key=lambda x: (-x["stargazers_count"], x["name"])):
 
         if repo["name"] in _IGNORE or repo["visibility"] != "public":
             continue
 
-        desc = repo['description'] or ""
+        desc = repo["description"] or ""
         print(f"| [{repo['name']}]({repo['html_url']}) | {desc} |")
 
     return 0
