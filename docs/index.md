@@ -40,3 +40,7 @@ SMI contains several open-source applications and libraries for managing medical
 | [dicom-to-minio](https://github.com/SMI/dicom-to-minio) | Script to upload directories of DICOM files to MinIO |
 | [metacat](https://github.com/SMI/metacat) | Custom medical imaging metadata catalogue including classification based on DICOM metadata |
 | [nlp2phenome](https://github.com/SMI/nlp2phenome) | Infer patient phenotypes from identified named entities (instances of biomedical concepts) |
+
+## Contact
+
+Please get in touch at <smi@epcc.ed.ac.uk> for all enquiries.
