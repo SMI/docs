@@ -29,7 +29,7 @@ def main() -> int:
     print("| ---- | ----------- |")
     for repo in sorted(repo_data, key=lambda x: (-x["stargazers_count"], x["name"])):
 
-        if repo["name"] in _IGNORE or repo["visibility"] != "public":
+        if repo["name"] in _IGNORE or repo["visibility"] != "public" or repo["fork"]:
             continue
 
         desc = repo["description"] or ""
