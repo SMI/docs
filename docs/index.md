@@ -36,7 +36,6 @@ SMI contains several open-source applications and libraries for managing medical
 | [ctp-anon-cli](https://github.com/SMI/ctp-anon-cli) | A CLI tool to anonymise files using the RSNA MIRC Clinical Trials Processor (CTP) DICOM Anonymizer |
 | [db_analysis](https://github.com/SMI/db_analysis) | Various scripts used to query any monitor MongoDB |
 | [dicom-packager](https://github.com/SMI/dicom-packager) | Scripts to package-up directories of DICOM files for transfer |
-| [dicom-standard](https://github.com/SMI/dicom-standard) | The DICOM standard, in JSON format, parsed from the HTML version using Python scripts |
 | [dicom-to-minio](https://github.com/SMI/dicom-to-minio) | Script to upload directories of DICOM files to MinIO |
 | [metacat](https://github.com/SMI/metacat) | Custom medical imaging metadata catalogue including classification based on DICOM metadata |
 | [nlp2phenome](https://github.com/SMI/nlp2phenome) | Infer patient phenotypes from identified named entities (instances of biomedical concepts) |
