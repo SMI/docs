@@ -42,4 +42,6 @@ SMI contains several open-source applications and libraries for managing medical
 
 ## Contact
 
-Please get in touch at <smi@epcc.ed.ac.uk> for all enquiries.
+Please get in touch at <smi@epcc.ed.ac.uk> for all enquiries relating to our software or to discuss collaboration options.
+
+For image data access enquiries, please see [Research Data Scotland](https://www.researchdata.scot/accessing-data/) (Scottish National Safe Haven), or the [Health Informatics Centre](https://www.dundee.ac.uk/hic) (East of Scotland Regional Safe Haven).
