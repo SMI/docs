@@ -40,8 +40,18 @@ SMI contains several open-source applications and libraries for managing medical
 | [metacat](https://github.com/SMI/metacat) | Custom medical imaging metadata catalogue including classification based on DICOM metadata |
 | [nlp2phenome](https://github.com/SMI/nlp2phenome) | Infer patient phenotypes from identified named entities (instances of biomedical concepts) |
 
-## Contact
+## Support
 
-Please get in touch at <smi@epcc.ed.ac.uk> for all enquiries relating to our software or to discuss collaboration options.
+!!! Question
+    Get in touch at **<smi@epcc.ed.ac.uk>** for all enquiries relating to our software or to discuss collaboration options.
 
-For image data access enquiries, please see [Research Data Scotland](https://www.researchdata.scot/accessing-data/) (Scottish National Safe Haven), or the [Health Informatics Centre](https://www.dundee.ac.uk/hic) (East of Scotland Regional Safe Haven).
+Our team offer support and bespoke development for your needs, including:
+
+-   Deployment of SMI software to your environment
+-   New features and bespoke plugins
+-   Dedicated support
+-   Expertise in DICOM and data management
+
+Each software package contains a LICENSE file which outlines liability, warranty, and re-distribution. Please do report any bugs you discover or features you would like, but we cannot guarantee timeley changes unless a support contract is agreed.
+
+For data access enquiries, please see [Research Data Scotland](https://www.researchdata.scot/accessing-data/) (Scottish National Safe Haven), or the [Health Informatics Centre](https://www.dundee.ac.uk/hic) (East of Scotland Regional Safe Haven).
